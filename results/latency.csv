@@ -1,0 +1,4 @@
+model,params,ms_per_flow_bs1,us_per_flow_bs256
+EdgeMLP student,5352,0.123,0.92
+FT-Transformer teacher,308456,2.242,310.16
+"XGBoost (300x8, CPU)",230540,1.742,21.82

@@ -1,0 +1,34 @@
+dataset,comparison,A,B,metric,n_pairs,mean_diff,sd_diff,cohens_dz,p_ttest,p_wilcoxon,p_holm
+ciciot2023,KD transfers calibration (ECE),student_kd_ft,student_scratch,ece,5,-0.0546,0.01,-5.44,0.0003,0.0625,0.0031
+ciciot2023,KD transfers calibration (cwECE),student_kd_ft,student_scratch,classwise_ece,5,-0.0114,0.0023,-5.04,0.0004,0.0625,0.0039
+ciciot2023,sharpened teacher -> worse student ECE (causal),student_kd_ft_sharp,student_kd_ft,ece,5,0.0335,0.0072,4.64,0.0005,0.0625,0.0049
+ciciot2023,KD minority tax (macro-F1),student_kd_ft,student_scratch,macro_f1,5,-0.0022,0.0104,-0.21,0.6575,0.625,0.6575
+ciciot2023,alpha dose-response (ECE),student_kd_ft_a09,student_kd_ft_a03,ece,5,-0.0259,0.0078,-3.32,0.0018,0.0625,0.0141
+ciciot2023,WCE minority gain,student_scratch_wce,student_scratch,macro_f1,5,0.0215,0.0141,1.53,0.0267,0.0625,0.1867
+ciciot2023,WCE calibration cost,student_scratch_wce,student_scratch,classwise_ece,5,0.0244,0.0025,9.8,0.0,0.0625,0.0004
+ciciot2023,scratch+TS vs KD (ECE),student_scratch_ts,student_kd_ft,ece,5,-0.0038,0.0047,-0.82,0.1413,0.3125,0.5738
+ciciot2023,LS rival explanation (must NOT match KD),student_ls,student_kd_ft,ece,5,0.1142,0.0068,16.67,0.0,0.0625,0.0
+ciciot2023,LS vs scratch (soft-target effect size),student_ls,student_scratch,ece,5,0.0596,0.0101,5.88,0.0002,0.0625,0.0025
+ciciot2023,jittered teacher -> worse student ECE (causal v3.2),student_kd_ft_jitter,student_kd_ft,ece,5,-0.0056,0.0079,-0.71,0.1885,0.3125,0.5738
+ciciot2023,selective sharpening transfers (confirmatory v3.3),student_kd_ft_selsharp,student_kd_ft,ece,5,0.0084,0.0081,1.04,0.081,0.0625,0.486
+ciciot2023,selective sharpening -> overconfident errors,student_kd_ft_selsharp,student_kd_ft,conf_on_errors,5,0.0647,0.0183,3.54,0.0014,0.0625,0.0124
+ciciot2023,transfer replicates at 128-64 student,student_mid_kd_ft,student_mid_scratch,ece,5,-0.0242,0.0018,-13.73,0.0,0.0625,0.0001
+ciciot2023,minority tax at 128-64 student,student_mid_kd_ft,student_mid_scratch,macro_f1,5,-0.0157,0.0175,-0.9,0.1148,0.0625,0.5738
+ciciot2023,KD minority tax (F1_BruteForce),student_kd_ft,student_scratch,F1_BruteForce,5,-0.0093,0.018,-0.52,0.3124,0.5,0.6248
+edgeiiot,KD transfers calibration (ECE),student_kd_ft,student_scratch,ece,5,-0.0431,0.0172,-2.51,0.0049,0.0625,0.0542
+edgeiiot,KD transfers calibration (cwECE),student_kd_ft,student_scratch,classwise_ece,5,-0.007,0.0025,-2.76,0.0035,0.0625,0.0419
+edgeiiot,sharpened teacher -> worse student ECE (causal),student_kd_ft_sharp,student_kd_ft,ece,5,0.0336,0.0234,1.43,0.0327,0.0625,0.2616
+edgeiiot,KD minority tax (macro-F1),student_kd_ft,student_scratch,macro_f1,5,-0.1232,0.0279,-4.41,0.0006,0.0625,0.0095
+edgeiiot,alpha dose-response (ECE),student_kd_ft_a09,student_kd_ft_a03,ece,5,-0.0046,0.0241,-0.19,0.6923,0.625,1.0
+edgeiiot,WCE minority gain,student_scratch_wce,student_scratch,macro_f1,5,-0.0153,0.0235,-0.65,0.2194,0.3125,0.8777
+edgeiiot,WCE calibration cost,student_scratch_wce,student_scratch,classwise_ece,5,0.0046,0.0038,1.23,0.0514,0.125,0.2727
+edgeiiot,scratch+TS vs KD (ECE),student_scratch_ts,student_kd_ft,ece,5,0.0051,0.0131,0.39,0.4346,0.625,1.0
+edgeiiot,LS rival explanation (must NOT match KD),student_ls,student_kd_ft,ece,5,0.0698,0.022,3.17,0.0021,0.0625,0.0291
+edgeiiot,LS vs scratch (soft-target effect size),student_ls,student_scratch,ece,5,0.0267,0.0092,2.9,0.0029,0.0625,0.0379
+edgeiiot,jittered teacher -> worse student ECE (causal v3.2),student_kd_ft_jitter,student_kd_ft,ece,5,0.0084,0.0066,1.28,0.0454,0.125,0.2727
+edgeiiot,selective sharpening transfers (confirmatory v3.3),student_kd_ft_selsharp,student_kd_ft,ece,5,0.0116,0.0259,0.45,0.3712,0.625,1.0
+edgeiiot,selective sharpening -> overconfident errors,student_kd_ft_selsharp,student_kd_ft,conf_on_errors,5,0.023,0.0117,1.96,0.0119,0.0625,0.1071
+edgeiiot,transfer replicates at 128-64 student,student_mid_kd_ft,student_mid_scratch,ece,5,-0.0402,0.0089,-4.51,0.0005,0.0625,0.0093
+edgeiiot,minority tax at 128-64 student,student_mid_kd_ft,student_mid_scratch,macro_f1,5,-0.013,0.0094,-1.39,0.0362,0.0625,0.2616
+edgeiiot,KD minority tax (F1_Spoofing),student_kd_ft,student_scratch,F1_Spoofing,5,-0.4304,0.2118,-2.03,0.0105,0.0625,0.1047
+edgeiiot,KD minority tax (F1_Malware),student_kd_ft,student_scratch,F1_Malware,5,-0.2722,0.0686,-3.97,0.0009,0.0625,0.0134

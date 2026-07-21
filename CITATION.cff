@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated paper."
+title: "Knowledge Distillation Transfers Confidence Calibration to Edge Intrusion Detection on Real IoT Traffic"
+authors:
+  - family-names: "Saleem"
+    given-names: "Adil Ali"
+    affiliation: "Institute of Computer Science, Khwaja Fareed University of Engineering and Information Technology, Rahim Yar Khan, Pakistan"
+version: "1.0.0"
+date-released: "2026-07-21"
+license: MIT
+repository-code: "https://github.com/ADIL-REPO-PLACEHOLDER/calibration-under-compression-iot"
+doi: "DOI-PLACEHOLDER"
+keywords:
+  - Internet of Things
+  - intrusion detection
+  - knowledge distillation
+  - calibration
+  - edge computing
+  - uncertainty quantification
