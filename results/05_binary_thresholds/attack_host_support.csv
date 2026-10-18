@@ -1,0 +1,16 @@
+attack_label,host_count
+Backdoor,4
+DDoS_HTTP,4
+DDoS_ICMP,9623
+DDoS_TCP,6994
+DDoS_UDP,1034
+MITM,7
+Normal,30
+OS_Fingerprinting,4
+Password,4
+Port_Scanning,4
+Ransomware,4
+SQL_injection,4
+Uploading,3
+Vulnerability_scanner,7
+XSS,6

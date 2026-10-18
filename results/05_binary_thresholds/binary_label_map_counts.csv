@@ -1,0 +1,16 @@
+__label__,__binary__,0
+Backdoor,attack,12000
+DDoS_HTTP,attack,12000
+DDoS_ICMP,attack,12000
+DDoS_TCP,attack,12000
+DDoS_UDP,attack,12000
+MITM,attack,1229
+Normal,benign,120000
+OS_Fingerprinting,attack,1001
+Password,attack,12000
+Port_Scanning,attack,12000
+Ransomware,attack,10925
+SQL_injection,attack,12000
+Uploading,attack,12000
+Vulnerability_scanner,attack,12000
+XSS,attack,12000

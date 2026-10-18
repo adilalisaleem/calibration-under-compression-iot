@@ -1,0 +1,12 @@
+Comment,Manuscript location,Claim cross-check,Alignment,Remaining caveat
+Associate Editor,Section V: Source-Host Shift; Section VI: Discussion; Section VII: Conclusion,Qualifies confidence transfer and external validity,Aligned,Physical device and temporal transfer explicitly unmeasured
+R1.1 geometry,Section V: Source-Host Shift and Feature Sensitivity,JS divergence and Spearman definitions present,Partial,Per-seed geometry output not tabulated in manuscript; supplement separately
+R1.2 device-disjoint,Section V: Host table,Binary host-disjoint 199584/26516/39055 and 26/23 predictors,Aligned with qualification,Source-host is not verified device identity
+R1.3 calibration split,Section V: Host table; Section VI,"ECE scratch .1497, KD-FT .1668, KD-XGB .1273; p=.625",Aligned,No post-deployment on-site evaluation
+R1.4 cross dataset,Section VI: Discussion; Section VII: Conclusion,No verified common representation; no transfer experiment,Aligned as limitation,Does not fulfill requested cross-dataset test
+R1.5 hardware,Section V: Results setup; Section VI-VII,CPU model inference only; gateway metrics unavailable,Aligned as limitation,No gateway hardware experiment
+R1.6 temporal,Section VI: Discussion; Section VII,Temporal metadata invalid/unverified; no temporal holdout,Aligned as limitation,No temporal stress-test
+R2.1 F1-ECE,Section V: Capacity-Dependent Minority Tax and host table,"0.663→.540 F1, .094→.051 ECE; host shift F1/ECE",Aligned,Tasks separate: multiclass vs binary
+R2.2 other teachers,Section IV: Counterfactual Teacher Manipulations; Section V,FT/XGB counterfactuals; LM excluded,Partial,Detailed XGB experiment results are not displayed in main manuscript table
+R2.3 selective sharpening,Section V: Counterfactual Arms; Tables counterfactual and stats,"Primary ECE nonsignificant, CoE secondary",Aligned,Original significant CoE not claimed to establish primary endpoint
+R2.4 label smoothing,Section V: Ruling Out the Soft-Target Explanation,"Epsilon .025,.05,.1,.2,.3 and entropy-matched noted",Partial,Individual five-seed LS results not tabulated

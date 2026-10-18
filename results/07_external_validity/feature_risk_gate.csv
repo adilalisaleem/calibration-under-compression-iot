@@ -1,0 +1,8 @@
+feature,risk_category,exclude_from_model_by_default
+Attack_type,review semantics / provenance,False
+__capture__,review semantics / provenance,False
+__host__,review semantics / provenance,False
+frame.time,review semantics / provenance,False
+tcp.ack,capture/counter candidate,True
+tcp.seq,capture/counter candidate,True
+udp.stream,capture/counter candidate,True

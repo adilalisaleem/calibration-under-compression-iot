@@ -1,0 +1,4 @@
+__split__,benign,attack
+train,76652,122932
+val,14238,12278
+test,29110,9945

@@ -1,0 +1,25 @@
+__capture_file__,n,first_time,last_time,hosts,labels
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/Backdoor_attack.csv,12000,2021-01-01 17:58:23.150209+00:00,2021-01-01 21:07:01.100457+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/DDoS_HTTP_Flood_attack.csv,12000,2021-01-01 11:35:29.507400+00:00,2021-01-01 11:39:43.666092+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/DDoS_ICMP_Flood_attack.csv,12000,2021-01-01 23:17:49.149504+00:00,2021-01-01 23:24:32.815714+00:00,9623,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/DDoS_TCP_SYN_Flood_attack.csv,12000,2021-01-01 19:02:37.608343+00:00,2021-01-01 19:11:25.621070+00:00,6994,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/DDoS_UDP_Flood_attack.csv,12000,1995-02-16 17:00:00+00:00,2038-09-24 16:00:00+00:00,1034,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/MITM_attack.csv,1229,1970-01-01 00:00:00+00:00,1970-01-01 00:00:00.000000006+00:00,7,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/OS_Fingerprinting_attack.csv,1001,2021-01-01 22:14:30.939803+00:00,2021-01-01 22:28:16.484355+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/Password_attack.csv,12000,2021-01-01 01:45:35.978763+00:00,2021-01-01 20:47:21.586553+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/Port_Scanning_attack.csv,12000,2021-01-01 16:03:29.475121+00:00,2021-01-01 18:50:09.194016+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/Ransomware_attack.csv,10925,2021-01-01 00:00:01.163427+00:00,2021-01-01 23:59:59.358821+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/SQL_injection_attack.csv,12000,2021-01-01 21:35:18.575084+00:00,2021-01-01 21:43:43.673375+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/Uploading_attack.csv,12000,2021-01-01 23:08:50.405050+00:00,2021-01-01 23:16:58.136356+00:00,3,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/Vulnerability_scanner_attack.csv,12000,2021-01-01 19:22:15.657881+00:00,2021-01-01 19:42:33.064127+00:00,7,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Attack traffic/XSS_attack.csv,12000,2021-01-01 17:44:47.438207+00:00,2021-01-01 19:53:14.731065+00:00,6,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Distance/Distance.csv,12000,2021-01-01 00:00:00.016805+00:00,2021-01-01 23:59:59.986351+00:00,2,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Flame_Sensor/Flame_Sensor.csv,12000,2022-01-01 05:42:04.769459+00:00,2022-01-01 06:06:01.689376+00:00,3,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Heart_Rate/Heart_Rate.csv,12000,2021-01-01 02:39:39.986982+00:00,2021-01-01 03:10:17.344260+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/IR_Receiver/IR_Receiver.csv,12000,2022-01-01 00:48:13.644301+00:00,2022-01-01 01:18:36.577768+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Modbus/Modbus.csv,12000,,,13,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Soil_Moisture/Soil_Moisture.csv,12000,2022-01-01 08:46:13.603355+00:00,2022-01-01 11:02:35.386542+00:00,4,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Sound_Sensor/Sound_Sensor.csv,12000,2022-01-01 04:33:56.373917+00:00,2022-01-01 05:06:12.769509+00:00,3,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Temperature_and_Humidity/Temperature_and_Humidity.csv,12000,2021-01-01 01:22:48.049306+00:00,2021-01-01 23:10:09.715221+00:00,7,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/Water_Level/Water_Level.csv,12000,2021-01-01 04:48:17.156717+00:00,2022-01-01 23:09:13.823986+00:00,3,1
+datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/Edge-IIoTset dataset/Normal traffic/phValue/phValue.csv,12000,2021-01-01 00:34:37.378407+00:00,2021-01-01 01:49:03.755687+00:00,4,1

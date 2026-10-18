@@ -1,0 +1,27 @@
+feature,risk_review,mandatory_exclusion
+dns.qry.qu,inspect for capture/environment and target leakage,False
+dns.qry.type,protocol descriptor,False
+dns.retransmission,inspect for capture/environment and target leakage,False
+dns.retransmit_request,inspect for capture/environment and target leakage,False
+dns.retransmit_request_in,inspect for capture/environment and target leakage,False
+http.content_length,protocol length,False
+http.response,inspect for capture/environment and target leakage,False
+icmp.seq_le,inspect for capture/environment and target leakage,True
+mbtcp.len,inspect for capture/environment and target leakage,False
+mbtcp.trans_id,inspect for capture/environment and target leakage,True
+mbtcp.unit_id,inspect for capture/environment and target leakage,False
+mqtt.conack.flags,inspect for capture/environment and target leakage,False
+mqtt.conflag.cleansess,inspect for capture/environment and target leakage,False
+mqtt.len,inspect for capture/environment and target leakage,False
+mqtt.proto_len,inspect for capture/environment and target leakage,False
+mqtt.ver,inspect for capture/environment and target leakage,False
+tcp.ack,acknowledgement counter,True
+tcp.connection.fin,inspect for capture/environment and target leakage,False
+tcp.connection.rst,inspect for capture/environment and target leakage,False
+tcp.connection.syn,connection flag,False
+tcp.connection.synack,inspect for capture/environment and target leakage,False
+tcp.flags.ack,inspect for capture/environment and target leakage,False
+tcp.len,inspect for capture/environment and target leakage,False
+tcp.seq,sequence counter,True
+udp.stream,capture-derived stream number,True
+udp.time_delta,inspect for capture/environment and target leakage,False

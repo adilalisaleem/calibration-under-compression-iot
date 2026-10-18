@@ -1,0 +1,9 @@
+dataset,variant,n_features,n_classes,parameters,batch_size,median_us_per_flow,min_us_per_flow,max_us_per_flow,median_ms_per_batch,replicates,iterations_per_replicate
+CICIoT2023 revised,small (64-32),44,34,6274,1,69.1021,64.3566,153.5574,0.0691,5,2500
+CICIoT2023 revised,small (64-32),44,34,6274,256,0.5619,0.496,0.7453,0.14385,5,350
+CICIoT2023 revised,mid (128-64),44,34,16610,1,108.3333,64.4104,169.8838,0.10833,5,2500
+CICIoT2023 revised,mid (128-64),44,34,16610,256,0.8712,0.7645,0.9823,0.22302,5,350
+Edge-IIoTset revised,small (64-32),36,15,5135,1,66.0654,61.2085,74.7403,0.06607,5,2500
+Edge-IIoTset revised,small (64-32),36,15,5135,256,0.4969,0.4695,0.6191,0.12719,5,350
+Edge-IIoTset revised,mid (128-64),36,15,14351,1,66.367,62.228,77.4903,0.06637,5,2500
+Edge-IIoTset revised,mid (128-64),36,15,14351,256,0.8472,0.7303,0.9333,0.21689,5,350

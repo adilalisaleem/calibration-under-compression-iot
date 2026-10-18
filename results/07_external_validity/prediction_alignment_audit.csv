@@ -1,0 +1,11 @@
+seed,split,all_labels_equal,all_row_ids_equal,duplicate_row_ids
+13,test,True,True,False
+13,validation,True,True,False
+42,test,True,True,False
+42,validation,True,True,False
+77,test,True,True,False
+77,validation,True,True,False
+2024,test,True,True,False
+2024,validation,True,True,False
+31337,test,True,True,False
+31337,validation,True,True,False

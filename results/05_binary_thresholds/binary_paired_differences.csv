@@ -1,0 +1,11 @@
+comparison,metric,paired_seeds,mean_difference,sd_difference,exact_two_sided_signflip_p
+kd_ft minus scratch,macro_f1,5,-0.07391852047199218,0.10560901175895264,0.1875
+kd_ft minus scratch,ece,5,0.017096340615989587,0.1646921345307968,1.0
+kd_ft minus scratch,nll,5,0.21585714668035508,0.4907633771382445,0.5
+kd_ft minus scratch,brier,5,0.052690669667306976,0.12149980247438091,0.4375
+kd_ft minus scratch,attack_recall,5,0.0,0.0,1.0
+kd_xgb minus scratch,macro_f1,5,-0.015942791565538284,0.13460802363158883,0.625
+kd_xgb minus scratch,ece,5,-0.02237293728730879,0.13901428538842722,0.625
+kd_xgb minus scratch,nll,5,-0.024595795571804045,0.19570768437990393,0.8125
+kd_xgb minus scratch,brier,5,-0.0028313951959200003,0.06477983633258534,0.9375
+kd_xgb minus scratch,attack_recall,5,0.0,0.0,1.0

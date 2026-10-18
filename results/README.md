@@ -1,45 +1,17 @@
-# Results data dictionary
+# IEEE IoT-J R1 GitHub CSV evidence package
 
-All metrics are computed from saved model logits over five fixed seeds
-(13, 42, 77, 2024, 31337) on CICIoT2023 and Edge-IIoTset.
+All recovered CSV artifacts are separated by experiment protocol. Upload folders to `results/revision_r1/` (or preserve the folder structure). The original multiclass study, the strict multiclass split attempt, binary host-disjoint task, threshold selection, and feature ablation are DIFFERENT protocols and must not be pooled.
 
-## all_runs_raw.csv
-One row per `(dataset, seed, regime)`. Columns:
-- `dataset` — `ciciot2023` or `edgeiiot`
-- `seed` — one of the five fixed seeds
-- `regime` — training regime (see the mapping table in the top-level README)
-- `accuracy`, `macro_f1` — discrimination metrics
-- `ece`, `adaptive_ece`, `classwise_ece` — calibration error (15 bins;
-  adaptive = equal-mass; classwise = mean one-vs-rest, imbalance-sensitive)
-- `brier`, `nll` — strictly proper scoring rules
-- `conf_on_errors` — mean top-1 confidence on misclassified flows
-- `gate_p` — internal stability-gate flag (teacher retrain trigger); not used
-  in the paper's analysis
-- per-class F1 columns (e.g. `F1_Spoofing`, `F1_Malware`, `F1_Web`) where present
+- `01_multiclass_calibration/`: original revision multi-class five-seed comparisons, teacher perturbations, label smoothing, geometry, paired tests, protocol gates.
+- `02_multiclass_host_shift/`: first exploratory source-host shift results and capture audits.
+- `03_strict_multiclass_host_split/`: audit of unsuccessful locked 15-class split. Empty result files are NOT successful experiments.
+- `04_binary_host_shift/`: successful locked binary split, five-seed evaluations and host assignments.
+- `05_binary_thresholds/`: validation-selected thresholds, uses the SAME binary split; duplicated files retained intentionally for independent run provenance.
+- `06_all_in_one_ablation/`: full versus reduced predictor experiments, host geometry, audits, computational proxy latency.
+- `07_external_validity/`: cross-dataset and predictor-compatibility audits, not a successful cross-dataset transfer experiment.
+- `08_cpu_reference_latency/`: separate local CPU architecture measurements, NOT a physical gateway benchmark.
+- `09_reference_audit/`: publication and manuscript audit records; optional for public code repository.
 
-## summary_ciciot2023.csv, summary_edgeiiot.csv
-Per-regime aggregates. **These files have a two-row header** (metric name in
-row 1, `mean`/`std` in row 2), as exported by pandas. Read with:
-```python
-import pandas as pd
-df = pd.read_csv("summary_ciciot2023.csv", header=[0, 1], index_col=0)
-```
+Large `locked_binary_row_assignments.csv`, `host_by_attack_counts.csv` and `binary_host_contingency.csv` are helpful for provenance but not strictly required for a lightweight public GitHub repository. Keep them archived if GitHub file limits or privacy review requires omitting them. Review raw IP/host identifiers before publishing!
 
-## stats_tests.csv
-Pre-specified paired-per-seed comparisons (pairs = seeds, n = 5). Columns:
-`dataset, comparison, A, B, metric, n_pairs, mean_diff, sd_diff, cohens_dz,
-p_ttest, p_wilcoxon, p_holm`. Holm correction is applied within each dataset's
-family of comparisons. At n = 5 the exact Wilcoxon two-sided floor is 0.0625;
-interpretation leans on effect sizes and cross-dataset replication.
-
-## aurc.csv
-Area under the risk-coverage curve per `(dataset, regime)`: `mean`, `std`.
-Lower is better.
-
-## latency.csv
-CPU latency and parameter counts per model: single-flow (batch 1) and batched
-(batch 256), measured on a single CPU core in PyTorch eager mode.
-
-## replication_view.csv
-A convenience side-by-side of key metrics (ECE, cwECE, macro-F1) across the two
-datasets for every regime.
+Use `FILE_MANIFEST.csv` to verify source, row estimates, and SHA256 checksums. No experiment results have been modified; files are copied from the supplied archives. Do not claim cross-dataset, temporal or real edge-hardware evaluation was completed.
